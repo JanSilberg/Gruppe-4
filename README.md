@@ -2,4 +2,4 @@
 Gruppe 4 projekt
 
 
-Dette er en endnu en test.
+Husk at lave pull request og ekstra branch ved ændring af eksisterende kode. :)
