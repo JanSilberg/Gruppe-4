@@ -1,32 +1,36 @@
 .pnfpage {
     background-repeat: no-repeat;
     background-image: url(../Images/404.png);
-
-}
-
-h1 {
-    text-align: center;
-    color: #002e5a;
-    font-weight: normal;
-}
-
-a {
-    text-decoration: none;
-    color: #002e5a
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.right_menu {
-    float:right;
-    
-
-}
+} /* Sætter baggrundsbillede på "pnfpage" class (404 siden) */
 
 .pnfpage {
     position: relative;
     left: 804px;
     top: 596px;
-}
+} /*Bestemmer position for class (404 siden */
+
+body {
+    background-image: url(../Images/mainbackground.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}/*Frontpage main background*/
+
+h1 {    
+    text-align: center;
+    color: #002e5a;
+    font-weight: normal;
+} /*Definerer hvor logo og overskrift skal placeres (frontpage siden) */
+
+a {
+    text-decoration: none;
+    color: #002e5a
+} /*Definerer al brødtekst */
+
+a:hover {
+    text-decoration: underline;
+} /*Giver "a" tekst underline når man hover over den */
+
+.right_menu {
+    position: relative;
+    left: 635px
+} /*Sætter class align til højre på siden */
