@@ -1,0 +1,32 @@
+.pnfpage {
+    background-repeat: no-repeat;
+    background-image: url(../Images/404.png);
+
+}
+
+h1 {
+    text-align: center;
+    color: #002e5a;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #002e5a
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.right_menu {
+    float:right;
+    
+
+}
+
+.pnfpage {
+    position: relative;
+    left: 804px;
+    top: 596px;
+}
